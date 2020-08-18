@@ -1,67 +1,63 @@
+html{
+    height: 100%;
+}
+
 body{
-    font-family: 'Open Sans', sans-serif;
-    position: fixed;
-    right: 0%;
-    top: 10px
+    margin: auto;
+    height: 100%;
+    max-height:100%;
 }
 
-
-
-#Menu{
-    margin: 10px;
-    width: 900px;
-    background-color:green;
-}
-ul{
-   list-style: none;
+header{
+    position: absolute;
+    width: 100%;
+    margin: auto;
 }
 
-#Menu li{
-    display:block;
-    width: 120px;
-    float: right;
-    margin-right: 2px;
+nav li{
+    float:right;
+}
+
+li{
+    list-style: none;
+    margin: 15px;
 }
 
 a{
     text-decoration: none;
-    color:grey;
+    color: black;
 }
 a:hover{
     text-decoration: underline;
+    color:grey;
 }
 
 main{
-    position:relative;
-    bottom: 50%;
+    position:absolute;
+    top: 25%;
+    width:100%;
     margin: auto;
+    height: 50%;
 }
 
-#google_logo{
-    position: absolute;
-    top: 120px;
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+    height: 25%;
 }
 
 input[type="text"] {
-    position: absolute;
-    top: 250px;
-    left:-10%;
-    
-}
-
-input[type="submit"]{
-    padding: 10px;
-    background-color: rgba(197, 193, 193, 0.226);
-    border-radius: 5px;
-    position:absolute;
-    top: 325px;
-    border:  0;
-    font-color:;
-}
-
-input[type="submit"]:hover{
-    border: 1px solid rgba(255, 251, 251, 0.753);
-    box-shadow:0 0 1px 1px rgba(0,0,0,0.16);
+    position: relative;
+    top: 10%;
+    width: 100%;
+    margin: auto;
+   
 }
 
 #searchbox{
@@ -76,19 +72,20 @@ input[type="submit"]:hover{
     box-shadow:0 0 15px 4px rgba(0,0,0,0.16);
 }
 
-input:focus, textarea:focus, select:focus{
-    outline: none;
+input[type="submit"]{
+    position: relative;
+    top: 25%;
+    left: 18%;
+    margin: 10px;
+    padding: 10px;
+    width: 130px;
+    border:0px;
+    border-radius: 5px;
+    color: rgb(116, 114, 114);
 }
 
-
-#submit_search{
-    left: 5px;  
+input[type="submit"]:hover{
+    border: 1px solid rgba(255, 251, 251, 0.753);
+    box-shadow:0 0 1px 1px rgba(0,0,0,0.16);
 }
-
-#lucky{
-    left: 125px;
-}
-
-
-
 
