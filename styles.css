@@ -1,0 +1,94 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    right: 0%;
+    top: 10px
+}
+
+
+
+#Menu{
+    margin: 10px;
+    width: 900px;
+    background-color:green;
+}
+ul{
+   list-style: none;
+}
+
+#Menu li{
+    display:block;
+    width: 120px;
+    float: right;
+    margin-right: 2px;
+}
+
+a{
+    text-decoration: none;
+    color:grey;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    position:relative;
+    bottom: 50%;
+    margin: auto;
+}
+
+#google_logo{
+    position: absolute;
+    top: 120px;
+}
+
+input[type="text"] {
+    position: absolute;
+    top: 250px;
+    left:-10%;
+    
+}
+
+input[type="submit"]{
+    padding: 10px;
+    background-color: rgba(197, 193, 193, 0.226);
+    border-radius: 5px;
+    position:absolute;
+    top: 325px;
+    border:  0;
+    font-color:;
+}
+
+input[type="submit"]:hover{
+    border: 1px solid rgba(255, 251, 251, 0.753);
+    box-shadow:0 0 1px 1px rgba(0,0,0,0.16);
+}
+
+#searchbox{
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.972);
+    border: 2px solid rgba(231, 228, 228, 0.966);
+    border-radius: 25px;
+}
+
+#searchbox:hover{
+    border: 0px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.16);
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+
+#submit_search{
+    left: 5px;  
+}
+
+#lucky{
+    left: 125px;
+}
+
+
+
+
