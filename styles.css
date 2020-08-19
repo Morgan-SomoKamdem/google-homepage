@@ -12,13 +12,14 @@ header{
     position: absolute;
     width: 100%;
     margin: auto;
+    height: 80px;
 }
 
-nav li{
-    float:right;
+#top_list .top_links{
+    float: right;
 }
 
-li{
+.top_links{
     list-style: none;
     margin: 15px;
 }
@@ -33,6 +34,7 @@ a:hover{
 }
 
 main{
+    min-height: calc(100vh-120);
     position:absolute;
     top: 25%;
     width:100%;
@@ -87,5 +89,35 @@ input[type="submit"]{
 input[type="submit"]:hover{
     border: 1px solid rgba(255, 251, 251, 0.753);
     box-shadow:0 0 1px 1px rgba(0,0,0,0.16);
+}
+
+footer{
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+#hr_2{
+    position: relative;
+    bottom:50%;
+    margin: 0px;
+}
+
+#bottom_nav{
+    height: 40px;
+}
+
+#bottom_list1{
+    position: relative;
+    
+    top: 5px;
+}
+
+.ctr{
+    list-style: none;
+    
+    top: 10px;
 }
 
