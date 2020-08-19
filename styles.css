@@ -1,5 +1,6 @@
 html{
     height: 100%;
+    font-family: "Open Sans",Arial;
 }
 
 body{
@@ -92,17 +93,23 @@ input[type="submit"]:hover{
 }
 
 footer{
+    position: relative;
+    padding-top: -15px;
     height: 90px;
     width: 100%;
     position: fixed;
     bottom: 0;
+    background-color: lightgray;
 }
+
+
 
 
 #hr_2{
     position: relative;
     bottom:50%;
     margin: 0px;
+    top: -15px;
 }
 
 #bottom_nav{
@@ -112,12 +119,46 @@ footer{
 #bottom_list1{
     position: relative;
     
-    top: 5px;
+    top: -8px;
 }
 
 .ctr{
     list-style: none;
-    
-    top: 10px;
+    top: 0px;
 }
+
+#bottom_nav2_l{
+    
+    width: 65%;
+    height: 50px;
+}
+
+#bottom_nav2_l .stuff{
+    top: -50%;
+    float: left;
+    right: 5%;
+}
+
+.stuff{
+    
+    margin-top: -17px;
+    margin-right: 15px;
+    margin-left: 15px;
+    list-style: none;
+}
+
+#bottom_nav2_r{
+    position: fixed;
+    width: 100%;
+    height: 500px;
+    right: 5%;
+    margin: -65px;
+}
+
+#bottom_nav2_r .stuff{
+    float: right;
+    right: 5%;
+}
+
+
 
